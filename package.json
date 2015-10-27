@@ -1,0 +1,20 @@
+{
+  "name": "react-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "babel": "babel --watch public/jsx --out-dir public/js/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.8.29",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "node-env-file": "^0.1.7",
+    "request": "^2.65.0"
+  }
+}
